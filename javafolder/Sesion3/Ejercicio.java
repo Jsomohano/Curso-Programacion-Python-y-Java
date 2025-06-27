@@ -1,4 +1,4 @@
-package javafolder;
+package javafolder.Sesion3;
 
 public class Ejercicio {
     //Imprime los numeros pares que hay del 1 al 20

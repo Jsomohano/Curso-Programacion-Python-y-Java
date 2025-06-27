@@ -1,4 +1,4 @@
-package javafolder;
+package javafolder.Sesion3;
 
 public class CicloWhile {
     public static void main(String[] args) {
