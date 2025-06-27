@@ -1,3 +1,4 @@
+package javafolder.Sesion4;
 // Ejemplo de código Java usando métodos
 public class ConMetodos {
     public static void main(String[] args) {

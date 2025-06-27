@@ -1,4 +1,4 @@
-package javafolder;
+package javafolder.Sesion5;
 
 public class EjercicioListas
 {
