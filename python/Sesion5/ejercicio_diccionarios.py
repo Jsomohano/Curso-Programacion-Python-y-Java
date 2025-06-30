@@ -36,76 +36,17 @@ def cal_mas_alta(dict_calificaciones):
 
     print(f"La persona {nombre_alta} tiene la calificacion mas alta de: {mas_alta}")
 
+def cal_mas_baja(dict_calificaciones):
+    mas_baja = 11  # Suponiendo escala de 0 a 10
+    nombre_baja = ""
+    for name, cal in dict_calificaciones.items():
+        if cal < mas_baja:
+            mas_baja = cal
+            nombre_baja = name
 
+    print(f"La persona {nombre_baja} tiene la calificación más baja de: {mas_baja}")
+
+
+promedio(estudiantes)
 cal_mas_alta(estudiantes)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def mostrar_promedio(estudiantes):
-#     suma = 0
-#     cantidad = 0
-#     for calificacion in estudiantes.values():
-#         suma += calificacion
-#         cantidad += 1
-#     promedio = suma / cantidad if cantidad > 0 else 0
-#     print(f"Promedio de calificaciones: {promedio:.2f}")
-
-# def mostrar_mayor(estudiantes):
-#     mayor_nombre = None
-#     mayor_calificacion = None
-#     for nombre, calificacion in estudiantes.items():
-#         if mayor_calificacion is None or calificacion > mayor_calificacion:
-#             mayor_calificacion = calificacion
-#             mayor_nombre = nombre
-#     print(f"Estudiante con la calificación más alta: {mayor_nombre} ({mayor_calificacion})")
-
-# def mostrar_menor(estudiantes):
-#     menor_nombre = None
-#     menor_calificacion = None
-#     for nombre, calificacion in estudiantes.items():
-#         if menor_calificacion is None or calificacion < menor_calificacion:
-#             menor_calificacion = calificacion
-#             menor_nombre = nombre
-#     print(f"Estudiante con la calificación más baja: {menor_nombre} ({menor_calificacion})")
-
-
-
-# mostrar_promedio(estudiantes)
-# mostrar_mayor(estudiantes)
-# mostrar_menor(estudiantes)
+cal_mas_baja(estudiantes)
