@@ -15,4 +15,11 @@ elif calificacion >= 90:
 else:
     print("Reprobado")
 
+
+if calificacion >= 60:
+    print("Regular")
+
+elif calificacion >= 50:
+    print("Insuficiente")
+
     
