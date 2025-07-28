@@ -1,21 +1,11 @@
-package javafolder.POO;
+package javafolder.Sesion6;
 
 public class Main {
-    //Atributos
+    public static void main(String[] args) {
+        CarroEjemplo primerCarrito = new CarroEjemplo("gris","Nissan Versa",4);
+        CarroEjemplo segundoCarrito = new CarroEjemplo("gris","Ford Fiesta",4, "QIEXN52");
 
 
-    //Constructor
-
-
-
-
-    //Metodos
-    public static void main(String[] args)
-    {
-        Perro primerPerro = new Perro("carlos", "gris", 5);
-        primerPerro.Dormir();
-
-        Gato primerGato = new Gato("Giovanni", "gris", 5)
-        primerGato.Correr();
+        primerCarrito.acelerar();
     }
 }
